@@ -1,5 +1,5 @@
 .client/node_modules
-.server/node_modules
+node_modules
 .next
 .env.local
 .env.development.local
@@ -9,4 +9,4 @@ dist
 build
 *.log
 .DS_Store
-./server/.env
+.env
