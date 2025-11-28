@@ -12,7 +12,7 @@ interface Task {
   updated_at?: string;
 }
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://sql-crud-fawn.vercel.app/api';
 
 export default function Home() {
   const [tasks, setTasks] = useState<Task[]>([]);
